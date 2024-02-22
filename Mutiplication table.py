@@ -1,8 +1,8 @@
-n=10
-num=2
-res=1
+
+num=int(input("Enter the number to be multiplied: "))
+
+n=11
 for i in range(1,n):
-    for j in range(i-1):
-        res *=num
-        print(i, "*",  num, "=", res, end="")
+    res = i*num
+    print(i, "*",  num, "=", res, end="")
     print()
